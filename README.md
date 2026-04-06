@@ -1,26 +1,22 @@
-
-# 🔥 SQUIM PROJECT 
-
-## ✍️ REPLACE README:
-
-```markdown
 # 🎙️ Speech Quality Assessment using SQUIM (Cough Audio)
 
 ## 📌 Overview
-This project evaluates the quality of cough audio signals using SQUIM-based models to improve data quality for AI healthcare systems.
+This project evaluates the quality of cough audio signals using Speech Quality Assessment models (SQUIM). It is designed to improve input data quality for AI-based healthcare systems, ensuring more reliable machine learning predictions.
 
 ## 🎯 Objective
-Improve input data quality before feeding it into machine learning models to enhance prediction accuracy.
+To assess and filter audio data quality before feeding it into machine learning models, improving overall model performance and reducing noise-related errors.
 
 ## 🧠 Key Features
-- Audio quality evaluation pipeline  
+- Audio quality evaluation using deep learning models  
 - Integration with cough detection systems  
-- Data validation for ML workflows  
+- Data validation pipeline for machine learning workflows  
+- Improves reliability of AI-based healthcare models  
 
-## 🔧 Processing Steps
-- Audio preprocessing and normalization  
-- Feature extraction  
-- Quality scoring using SQUIM  
+## 🔧 Processing Pipeline
+- Audio preprocessing (resampling, normalization)  
+- Feature extraction from audio signals  
+- Quality scoring using SQUIM-based models  
+- Filtering low-quality audio samples  
 
 ## 🛠️ Tech Stack
 - Python  
@@ -31,7 +27,7 @@ Improve input data quality before feeding it into machine learning models to enh
 ## ▶️ How to Run
 
 ```bash
-git clone <repo>
-cd project
+git clone <your-repo-link>
+cd <project-folder>
 pip install -r requirements.txt
 python main.py
